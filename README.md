@@ -36,8 +36,8 @@ ShowSplashScreenSpinner : <b>false</b> - don't want to show loading icon on spla
 
 Here is all static <b>HTML</b>...
 
-Class <b>bar-header</b> - title of application page, added using jQuery <b>html()</b> function<br/>
-Class <b>main-navigation</b> and <b>journey-details</b> are two main pages of all application. Content to these pages arrives using jQuery <b>html()</b> function
+Class <b>bar-header</b> - title of application page, added using jQuery <b>html()</b> function.<br/>
+Class <b>main-navigation</b> and <b>journey-details</b> are two main pages of all application. Content to these pages arrives using jQuery <b>html()</b> function.
 
 ```html
 <!DOCTYPE html>
@@ -66,16 +66,17 @@ Class <b>main-navigation</b> and <b>journey-details</b> are two main pages of al
 <h1>And here the magic begins...</h1> 
 
 ```javascript
-// onSuccess Geolocation
+// onSuccess Geolocation function, runs when GPS works fine
 function onSuccess(position) {
 		
-		// Get Lat/Lon and stingify it
+		// Get Lat/Lon with one additional "0" in the end, which helpts to convert it a string as well
 		var latitude =  position.coords.latitude + "0";
 		var longitude = position.coords.longitude + "0";
 		
 		//Limit size of values (iOS has very long numbers, Android has less, let's make values same size)
 	    $(".coordinates").html(latitude.substr(0,10) + ", " + longitude.substr(0,10));
 	    
+	    //Creates journey history items, taking timestamp, latitude and longitude
 		$(".history-items").append(
 			'<div class="item">' +
 				'<p>' +
@@ -173,15 +174,20 @@ $(function() {
 		        navigator.geolocation.getCurrentPosition(onSuccess, onError);
 	        }
 	        
+	        //For now using just Mon - Fri 06:00 - 20:00 (Tariff 1), but need to do more calculations to make it work properly. Without distance traveled it's complicated to calculate rates.
 	        $(".tariff").html('Mon - Fri 06:00 - 20:00 (Tariff 1)');
 	        
+	        //Update current price every 5 seconds...
 	        var str_ct2 = currentTime % 5000;
 	        if(str_ct2 == 0) {
+	        	//Getting some tariffs
 				$.getJSON("js/fares.json", function(data) {
 					var items = [];
 					$.each( data, function( key, val ) {
 						items[key] = val;
 					});
+					
+					//Setting current journey price
 					$(".price").html("£ " + items[currentTime]);
 				});
 			}
@@ -317,6 +323,7 @@ $(function() {
 		// Hide main navigation
 		$(".main-navigation").hide();
 		
+		// Set header title
 		$(".bar-header").html(
 			'<h1 class="title">Journey Details</h1>'
 		);
