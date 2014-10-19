@@ -28,11 +28,12 @@ ShowSplashScreenSpinner : <b>false</b> - don't want to show loading icon on spla
 
 <h3>JS plugins used</h3>
 <b>jquery-2.1.1.min.js</b> - library to work with JS<br/>
-<b>ionic.min.js</b> - library to make project more dynamic
+<b>ionic.min.js</b> - library to make project more dynamic<br/>
+<b>timer.min.js</b> - for quick time manipulation
 
 <h1>How it works?</h1>
 
-<pre>
+```html
 <!DOCTYPE html>
 <html>
 	<head>
@@ -54,7 +55,7 @@ ShowSplashScreenSpinner : <b>false</b> - don't want to show loading icon on spla
 		<script type="text/javascript" src="js/index.js"></script>
 	</body>
 </html>
-</pre>
+```
 
 <h1>Result of my work...</h1>
 
