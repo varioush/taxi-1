@@ -11,8 +11,8 @@ module.exports = [
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "org.apache.cordova.splashscreen": "0.3.4",
-    "org.apache.cordova.geolocation": "0.3.10"
+    "org.apache.cordova.geolocation": "0.3.10",
+    "org.apache.cordova.splashscreen": "0.3.4"
 }
 // BOTTOM OF METADATA
 });
