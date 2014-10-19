@@ -27,14 +27,36 @@ ShowSplashScreenSpinner : <b>false</b> - don't want to show loading icon on spla
 <b>font-awesome.min.css</b> - icons
 
 <h3>JS plugins used</h3>
-<b>jquery-2.1.1.min.js</b> - library to work with JS
+<b>jquery-2.1.1.min.js</b> - library to work with JS<br/>
 <b>ionic.min.js</b> - library to make project more dynamic
 
-<center><h1>How it works?</h1></center>
+<h1>How it works?</h1>
 
+<pre>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+		<link rel="stylesheet" href="plugins/ionic-v1.0.0-beta.13/css/ionic.min.css" />
+		<link rel="stylesheet" href="plugins/font-awesome-4.2.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<title>Taxi</title>
+	</head>
+	<body>
+		<div class="bar bar-header bar-balanced"></div>
+		<div class="main-navigation"></div>
+		<div class="journey-details"></div>
+		<script type="text/javascript" src="cordova.js"></script>
+		<script type="text/javascript" src="plugins/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="plugins/ionic-v1.0.0-beta.13/js/ionic.min.js"></script>
+		<script type="text/javascript" src="plugins/timer.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+	</body>
+</html>
+</pre>
 
-
-<center><h1>Result of my work...</h1></center>
+<h1>Result of my work...</h1>
 
 <img src="http://wapartynetworks.co.uk/taxi/2014-10-19 21.34.29.png" alt="Loading...">
 <img src="http://wapartynetworks.co.uk/taxi/2014-10-19 21.35.19.png" alt="Loading...">
