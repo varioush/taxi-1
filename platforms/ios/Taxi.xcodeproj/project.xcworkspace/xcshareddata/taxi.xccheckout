@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5C595D30-29E7-499F-926F-87D98111B87A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>taxi</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>18D0994AB9BB5A2616CC5B52E0490C9628E8CE8B</key>
+		<string>github.com:waparty/taxi.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>platforms/ios/taxi.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>18D0994AB9BB5A2616CC5B52E0490C9628E8CE8B</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:waparty/taxi.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>18D0994AB9BB5A2616CC5B52E0490C9628E8CE8B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>18D0994AB9BB5A2616CC5B52E0490C9628E8CE8B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>taxi</string>
+		</dict>
+	</array>
+</dict>
+</plist>

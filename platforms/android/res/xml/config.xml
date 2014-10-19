@@ -4,13 +4,23 @@
     <feature name="SplashScreen">
         <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
     </feature>
-    <name>taxi</name>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <name>Taxi</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Apache Cordova based taxi meter that is deployable to both iOS and Android
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="waparty@gmail.com" href="http://wapartynetworks.co.uk">
+        Waparty Networks Ltd
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <preference name="splashscreen" value="screen" />
+    <preference name="Fullscreen" value="true" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="BackupWebStorage" value="false" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
 </widget>

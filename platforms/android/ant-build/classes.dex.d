@@ -1,4 +1,5 @@
 /Users/wparty/Desktop/git/taxi/platforms/android/ant-build/classes.dex : \
+/Users/wparty/Desktop/git/taxi/platforms/android/ant-build/classes/org/apache/cordova/device/Device.class \
 /Users/wparty/Desktop/git/taxi/platforms/android/ant-build/classes/org/apache/cordova/splashscreen/SplashScreen.class \
 /Users/wparty/Desktop/git/taxi/platforms/android/ant-build/classes/uk/co/wapartynetworks/taxi/BuildConfig.class \
 /Users/wparty/Desktop/git/taxi/platforms/android/ant-build/classes/uk/co/wapartynetworks/taxi/CordovaApp.class \

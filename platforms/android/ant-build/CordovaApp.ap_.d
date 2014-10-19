@@ -36,11 +36,14 @@
 /Users/wparty/Desktop/git/taxi/platforms/android/assets/www/index.html \
 /Users/wparty/Desktop/git/taxi/platforms/android/assets/www/js \
 /Users/wparty/Desktop/git/taxi/platforms/android/assets/www/plugins \
-/Users/wparty/Desktop/git/taxi/platforms/android/assets/www/img/logo.png \
+/Users/wparty/Desktop/git/taxi/platforms/android/assets/www/css/index.css \
+/Users/wparty/Desktop/git/taxi/platforms/android/assets/www/img/background.jpg \
+/Users/wparty/Desktop/git/taxi/platforms/android/assets/www/js/fares.json \
 /Users/wparty/Desktop/git/taxi/platforms/android/assets/www/js/index.js \
 /Users/wparty/Desktop/git/taxi/platforms/android/assets/www/plugins/font-awesome-4.2.0 \
 /Users/wparty/Desktop/git/taxi/platforms/android/assets/www/plugins/ionic-v1.0.0-beta.13 \
 /Users/wparty/Desktop/git/taxi/platforms/android/assets/www/plugins/jquery-2.1.1.min.js \
+/Users/wparty/Desktop/git/taxi/platforms/android/assets/www/plugins/org.apache.cordova.device \
 /Users/wparty/Desktop/git/taxi/platforms/android/assets/www/plugins/org.apache.cordova.splashscreen \
 /Users/wparty/Desktop/git/taxi/platforms/android/assets/www/plugins/timer.min.js \
 /Users/wparty/Desktop/git/taxi/platforms/android/assets/www/plugins/font-awesome-4.2.0/css \
@@ -108,6 +111,8 @@
 /Users/wparty/Desktop/git/taxi/platforms/android/assets/www/plugins/ionic-v1.0.0-beta.13/js/angular/angular.min.js \
 /Users/wparty/Desktop/git/taxi/platforms/android/assets/www/plugins/ionic-v1.0.0-beta.13/js/angular-ui/angular-ui-router.js \
 /Users/wparty/Desktop/git/taxi/platforms/android/assets/www/plugins/ionic-v1.0.0-beta.13/js/angular-ui/angular-ui-router.min.js \
+/Users/wparty/Desktop/git/taxi/platforms/android/assets/www/plugins/org.apache.cordova.device/www \
+/Users/wparty/Desktop/git/taxi/platforms/android/assets/www/plugins/org.apache.cordova.device/www/device.js \
 /Users/wparty/Desktop/git/taxi/platforms/android/assets/www/plugins/org.apache.cordova.splashscreen/www \
 /Users/wparty/Desktop/git/taxi/platforms/android/assets/www/plugins/org.apache.cordova.splashscreen/www/splashscreen.js \
 /Users/wparty/Desktop/git/taxi/platforms/android/ant-build/AndroidManifest.xml \
