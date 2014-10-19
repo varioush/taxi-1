@@ -3,21 +3,36 @@ Taxi
 
 Apache Cordova based taxi meter that is deployable to both iOS and Android
 
-<h3>Plugins used:</h3>
+<h3>Cordova version: 4.0.0</h3>
 
-org.apache.cordova.device 0.2.12 "Device"
-org.apache.cordova.geolocation 0.3.10 "Geolocation"
-org.apache.cordova.splashscreen 0.3.4 "Splashscreen"
+<h3>Cordova plugins:</h3>
+
+org.apache.cordova.device 0.2.12 "Device"<br/>
+org.apache.cordova.geolocation 0.3.10 "Geolocation"<br/>
+org.apache.cordova.splashscreen 0.3.4 "Splashscreen"<br/>
 
 <h3>Settings in config.xml</h3>
 
-splashscreen : <b>screen</b> - setting splashscreen image name for Android
-Fullscreen : <b>true</b> - full screen on Android
-DisallowOverscroll : <b>true</b> - disallow overscroll
-Orientation : <b>portrait</b> - let user use application only in portrait
-StatusBarOverlaysWebView : <b>false</b>
-BackupWebStorage : <b>false</b> - xCode recommendation, anyway we are not storing anything in this app
+splashscreen : <b>screen</b> - setting splashscreen image name for Android<br/>
+Fullscreen : <b>true</b> - full screen on Android<br/>
+DisallowOverscroll : <b>true</b> - disallow overscroll<br/>
+Orientation : <b>portrait</b> - let user use application only in portrait<br/>
+StatusBarOverlaysWebView : <b>false</b><br/>
+BackupWebStorage : <b>false</b> - xCode recommendation, anyway we are not storing anything in this app<br/>
 ShowSplashScreenSpinner : <b>false</b> - don't want to show loading icon on splashscreen
+
+<h3>CSS plugins used</h3>
+
+<b>ionic.min.css</b> - layout, styling<br/>
+<b>font-awesome.min.css</b> - icons
+
+<h3>JS plugins used</h3>
+<b>jquery-2.1.1.min.js</b> - library to work with JS
+<b>ionic.min.js</b> - library to make project more dynamic
+
+<center><h1>How it works?</h1></center>
+
+
 
 <center><h1>Result of my work...</h1></center>
 
