@@ -4,6 +4,7 @@ Taxi
 Apache Cordova based taxi meter that is deployable to both iOS and Android
 
 <h3>Cordova version: 4.0.0</h3>
+<h3>Phones used for testing: iPhone 6 and Samsung Galaxy S4</h3>
 
 <h3>Cordova plugins:</h3>
 
@@ -35,9 +36,8 @@ ShowSplashScreenSpinner : <b>false</b> - don't want to show loading icon on spla
 
 Here is all static <b>HTML</b>...
 
-<b><div class="bar bar-header bar-balanced"></div></b> - title of application page is added using jQuery <b>html()</b> function
-
-<b><div class="main-navigation"></div></b> and <b><div class="journey-details"></div></b> are two main pages of all application. Content to these pages arriving using jQuery <b>html()</b> function
+Class <b>bar-header</b> - title of application page, added using jQuery <b>html()</b> function<br/>
+Class <b>main-navigation</b> and <b>journey-details</b> are two main pages of all application. Content to these pages arrives using jQuery <b>html()</b> function
 
 ```html
 <!DOCTYPE html>
