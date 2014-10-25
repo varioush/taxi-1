@@ -38,7 +38,6 @@
 /Users/wparty/Desktop/git/taxi/platforms/android/assets/www/plugins \
 /Users/wparty/Desktop/git/taxi/platforms/android/assets/www/css/index.css \
 /Users/wparty/Desktop/git/taxi/platforms/android/assets/www/img/background.jpg \
-/Users/wparty/Desktop/git/taxi/platforms/android/assets/www/js/fares.json \
 /Users/wparty/Desktop/git/taxi/platforms/android/assets/www/js/index.js \
 /Users/wparty/Desktop/git/taxi/platforms/android/assets/www/plugins/font-awesome-4.2.0 \
 /Users/wparty/Desktop/git/taxi/platforms/android/assets/www/plugins/ionic-v1.0.0-beta.13 \

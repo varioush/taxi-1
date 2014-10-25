@@ -13,7 +13,11 @@ body{
 	min-height:100%;
 }
 .main-navigation, .journey-details {
-	margin: 44px auto 0px auto;
+	margin: 64px auto 0px auto;
+	width: 320px;
+}
+.journey-details {
+	margin: 84px auto 0px auto;
 	width: 320px;
 }
 .flag_icon {

@@ -7,7 +7,7 @@
     <feature name="Device">
         <param name="android-package" value="org.apache.cordova.device.Device" />
     </feature>
-    <name>Taxi</name>
+    <name>taxi</name>
     <description>
         Apache Cordova based taxi meter that is deployable to both iOS and Android
     </description>
