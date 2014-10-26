@@ -354,75 +354,75 @@ $(function() {
 				*/
 				
 				// Christmas Day
-				if(getFullYear >= 2014 && getMonth <= 11 && getDay == 25) {
+				if(getFullYear == 2014 && getMonth == 11 && getDay == 25) {
 					var tariff = 3;
 				}
 				// Boxing Day
-				if(getFullYear >= 2014 && getMonth <= 11 && getDay == 26) {
+				if(getFullYear == 2014 && getMonth == 11 && getDay == 26) {
 					var tariff = 3;
 				}
 				// New Year’s Day
-				if(getFullYear >= 2015 && getMonth <= 0 && getDay == 1) {
+				if(getFullYear == 2015 && getMonth == 0 && getDay == 1) {
 					var tariff = 3;
 				}
 				// Good Friday
-				if(getFullYear >= 2015 && getMonth <= 3 && getDay == 3) {
+				if(getFullYear == 2015 && getMonth == 3 && getDay == 3) {
 					var tariff = 3;
 				}
 				// Easter Monday
-				if(getFullYear >= 2015 && getMonth <= 3 && getDay == 6) {
+				if(getFullYear == 2015 && getMonth == 3 && getDay == 6) {
 					var tariff = 3;
 				}
 				// Early May bank holiday
-				if(getFullYear >= 2015 && getMonth <= 4 && getDay == 4) {
+				if(getFullYear == 2015 && getMonth == 4 && getDay == 4) {
 					var tariff = 3;
 				}
 				// Spring bank holiday
-				if(getFullYear >= 2015 && getMonth <= 4 && getDay == 25) {
+				if(getFullYear == 2015 && getMonth == 4 && getDay == 25) {
 					var tariff = 3;
 				}
 				// Summer bank holiday
-				if(getFullYear >= 2015 && getMonth <= 6 && getDay == 31) {
+				if(getFullYear == 2015 && getMonth == 6 && getDay == 31) {
 					var tariff = 3;
 				}
 				// Christmas Day
-				if(getFullYear >= 2015 && getMonth <= 11 && getDay == 25) {
+				if(getFullYear == 2015 && getMonth == 11 && getDay == 25) {
 					var tariff = 3;
 				}
 				// Boxing Day (substitute day)
-				if(getFullYear >= 2015 && getMonth <= 11 && getDay == 28) {
+				if(getFullYear == 2015 && getMonth == 11 && getDay == 28) {
 					var tariff = 3;
 				}
 				// New Year’s Day
-				if(getFullYear >= 2016 && getMonth <= 0 && getDay == 1) {
+				if(getFullYear == 2016 && getMonth == 0 && getDay == 1) {
 					var tariff = 3;
 				}
 				// Good Friday
-				if(getFullYear >= 2016 && getMonth <= 2 && getDay == 25) {
+				if(getFullYear == 2016 && getMonth == 2 && getDay == 25) {
 					var tariff = 3;
 				}
 				// Easter Monday
-				if(getFullYear >= 2016 && getMonth <= 2 && getDay == 28) {
+				if(getFullYear == 2016 && getMonth == 2 && getDay == 28) {
 					var tariff = 3;
 				}
 				// Early May bank holiday
-				if(getFullYear >= 2016 && getMonth <= 4 && getDay == 2) {
+				if(getFullYear == 2016 && getMonth == 4 && getDay == 2) {
 					var tariff = 3;
 				}
 				// Spring bank holiday
-				if(getFullYear >= 2016 && getMonth <= 4 && getDay == 30) {
+				if(getFullYear == 2016 && getMonth == 4 && getDay == 30) {
 					var tariff = 3;
 				}
 				// Summer bank holiday
-				if(getFullYear >= 2016 && getMonth <= 6 && getDay == 29) {
+				if(getFullYear == 2016 && getMonth == 6 && getDay == 29) {
 					var tariff = 3;
 				}
 				// Boxing Day
-				if(getFullYear >= 2016 && getMonth <= 11 && getDay == 26) {
+				if(getFullYear == 2016 && getMonth == 11 && getDay == 26) {
 					var tariff = 3;
 				}
 				// Christmas Day (substitute day)
-				if(getFullYear >= 2016 && getMonth <= 11 && getDay == 28) {
+				if(getFullYear == 2016 && getMonth == 11 && getDay == 28) {
 					var tariff = 3;
 				}
 				
@@ -561,75 +561,75 @@ $(function() {
 			*/
 			
 			// Christmas Day
-			if(getFullYear >= 2014 && getMonth <= 11 && getDay == 25) {
+			if(getFullYear == 2014 && getMonth == 11 && getDay == 25) {
 				var tariff = 3;
 			}
 			// Boxing Day
-			if(getFullYear >= 2014 && getMonth <= 11 && getDay == 26) {
+			if(getFullYear == 2014 && getMonth == 11 && getDay == 26) {
 				var tariff = 3;
 			}
 			// New Year’s Day
-			if(getFullYear >= 2015 && getMonth <= 0 && getDay == 1) {
+			if(getFullYear == 2015 && getMonth == 0 && getDay == 1) {
 				var tariff = 3;
 			}
 			// Good Friday
-			if(getFullYear >= 2015 && getMonth <= 3 && getDay == 3) {
+			if(getFullYear == 2015 && getMonth == 3 && getDay == 3) {
 				var tariff = 3;
 			}
 			// Easter Monday
-			if(getFullYear >= 2015 && getMonth <= 3 && getDay == 6) {
+			if(getFullYear == 2015 && getMonth == 3 && getDay == 6) {
 				var tariff = 3;
 			}
 			// Early May bank holiday
-			if(getFullYear >= 2015 && getMonth <= 4 && getDay == 4) {
+			if(getFullYear == 2015 && getMonth == 4 && getDay == 4) {
 				var tariff = 3;
 			}
 			// Spring bank holiday
-			if(getFullYear >= 2015 && getMonth <= 4 && getDay == 25) {
+			if(getFullYear == 2015 && getMonth == 4 && getDay == 25) {
 				var tariff = 3;
 			}
 			// Summer bank holiday
-			if(getFullYear >= 2015 && getMonth <= 6 && getDay == 31) {
+			if(getFullYear == 2015 && getMonth == 6 && getDay == 31) {
 				var tariff = 3;
 			}
 			// Christmas Day
-			if(getFullYear >= 2015 && getMonth <= 11 && getDay == 25) {
+			if(getFullYear == 2015 && getMonth == 11 && getDay == 25) {
 				var tariff = 3;
 			}
 			// Boxing Day (substitute day)
-			if(getFullYear >= 2015 && getMonth <= 11 && getDay == 28) {
+			if(getFullYear == 2015 && getMonth == 11 && getDay == 28) {
 				var tariff = 3;
 			}
 			// New Year’s Day
-			if(getFullYear >= 2016 && getMonth <= 0 && getDay == 1) {
+			if(getFullYear == 2016 && getMonth == 0 && getDay == 1) {
 				var tariff = 3;
 			}
 			// Good Friday
-			if(getFullYear >= 2016 && getMonth <= 2 && getDay == 25) {
+			if(getFullYear == 2016 && getMonth == 2 && getDay == 25) {
 				var tariff = 3;
 			}
 			// Easter Monday
-			if(getFullYear >= 2016 && getMonth <= 2 && getDay == 28) {
+			if(getFullYear == 2016 && getMonth == 2 && getDay == 28) {
 				var tariff = 3;
 			}
 			// Early May bank holiday
-			if(getFullYear >= 2016 && getMonth <= 4 && getDay == 2) {
+			if(getFullYear == 2016 && getMonth == 4 && getDay == 2) {
 				var tariff = 3;
 			}
 			// Spring bank holiday
-			if(getFullYear >= 2016 && getMonth <= 4 && getDay == 30) {
+			if(getFullYear == 2016 && getMonth == 4 && getDay == 30) {
 				var tariff = 3;
 			}
 			// Summer bank holiday
-			if(getFullYear >= 2016 && getMonth <= 6 && getDay == 29) {
+			if(getFullYear == 2016 && getMonth == 6 && getDay == 29) {
 				var tariff = 3;
 			}
 			// Boxing Day
-			if(getFullYear >= 2016 && getMonth <= 11 && getDay == 26) {
+			if(getFullYear == 2016 && getMonth == 11 && getDay == 26) {
 				var tariff = 3;
 			}
 			// Christmas Day (substitute day)
-			if(getFullYear >= 2016 && getMonth <= 11 && getDay == 28) {
+			if(getFullYear == 2016 && getMonth == 11 && getDay == 28) {
 				var tariff = 3;
 			}
 			
